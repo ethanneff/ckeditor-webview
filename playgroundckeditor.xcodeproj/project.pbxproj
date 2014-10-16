@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675A317919F067E100714FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A317819F067E100714FAC /* main.m */; };
+		675A317C19F067E100714FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A317B19F067E100714FAC /* AppDelegate.m */; };
+		675A317F19F067E100714FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A317E19F067E100714FAC /* ViewController.m */; };
+		675A318219F067E100714FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675A318019F067E100714FAC /* Main.storyboard */; };
+		675A318419F067E100714FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675A318319F067E100714FAC /* Images.xcassets */; };
+		675A318719F067E100714FAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675A318519F067E100714FAC /* LaunchScreen.xib */; };
+		675A319319F067E100714FAC /* playgroundckeditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675A319219F067E100714FAC /* playgroundckeditorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		675A318D19F067E100714FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 675A316B19F067E100714FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675A317219F067E100714FAC;
+			remoteInfo = playgroundckeditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		675A317319F067E100714FAC /* playgroundckeditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playgroundckeditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		675A317719F067E100714FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675A317819F067E100714FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		675A317A19F067E100714FAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		675A317B19F067E100714FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		675A317D19F067E100714FAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		675A317E19F067E100714FAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		675A318119F067E100714FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		675A318319F067E100714FAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		675A318619F067E100714FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		675A318C19F067E100714FAC /* playgroundckeditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgroundckeditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		675A319119F067E100714FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675A319219F067E100714FAC /* playgroundckeditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playgroundckeditorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		675A317019F067E100714FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675A318919F067E100714FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		675A316A19F067E100714FAC = {
+			isa = PBXGroup;
+			children = (
+				675A317519F067E100714FAC /* playgroundckeditor */,
+				675A318F19F067E100714FAC /* playgroundckeditorTests */,
+				675A317419F067E100714FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		675A317419F067E100714FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				675A317319F067E100714FAC /* playgroundckeditor.app */,
+				675A318C19F067E100714FAC /* playgroundckeditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		675A317519F067E100714FAC /* playgroundckeditor */ = {
+			isa = PBXGroup;
+			children = (
+				675A317A19F067E100714FAC /* AppDelegate.h */,
+				675A317B19F067E100714FAC /* AppDelegate.m */,
+				675A317D19F067E100714FAC /* ViewController.h */,
+				675A317E19F067E100714FAC /* ViewController.m */,
+				675A318019F067E100714FAC /* Main.storyboard */,
+				675A318319F067E100714FAC /* Images.xcassets */,
+				675A318519F067E100714FAC /* LaunchScreen.xib */,
+				675A317619F067E100714FAC /* Supporting Files */,
+			);
+			path = playgroundckeditor;
+			sourceTree = "<group>";
+		};
+		675A317619F067E100714FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				675A317719F067E100714FAC /* Info.plist */,
+				675A317819F067E100714FAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		675A318F19F067E100714FAC /* playgroundckeditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				675A319219F067E100714FAC /* playgroundckeditorTests.m */,
+				675A319019F067E100714FAC /* Supporting Files */,
+			);
+			path = playgroundckeditorTests;
+			sourceTree = "<group>";
+		};
+		675A319019F067E100714FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				675A319119F067E100714FAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		675A317219F067E100714FAC /* playgroundckeditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675A319619F067E100714FAC /* Build configuration list for PBXNativeTarget "playgroundckeditor" */;
+			buildPhases = (
+				675A316F19F067E100714FAC /* Sources */,
+				675A317019F067E100714FAC /* Frameworks */,
+				675A317119F067E100714FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playgroundckeditor;
+			productName = playgroundckeditor;
+			productReference = 675A317319F067E100714FAC /* playgroundckeditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		675A318B19F067E100714FAC /* playgroundckeditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675A319919F067E100714FAC /* Build configuration list for PBXNativeTarget "playgroundckeditorTests" */;
+			buildPhases = (
+				675A318819F067E100714FAC /* Sources */,
+				675A318919F067E100714FAC /* Frameworks */,
+				675A318A19F067E100714FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675A318E19F067E100714FAC /* PBXTargetDependency */,
+			);
+			name = playgroundckeditorTests;
+			productName = playgroundckeditorTests;
+			productReference = 675A318C19F067E100714FAC /* playgroundckeditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		675A316B19F067E100714FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ethanneff;
+				TargetAttributes = {
+					675A317219F067E100714FAC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					675A318B19F067E100714FAC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 675A317219F067E100714FAC;
+					};
+				};
+			};
+			buildConfigurationList = 675A316E19F067E100714FAC /* Build configuration list for PBXProject "playgroundckeditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 675A316A19F067E100714FAC;
+			productRefGroup = 675A317419F067E100714FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				675A317219F067E100714FAC /* playgroundckeditor */,
+				675A318B19F067E100714FAC /* playgroundckeditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		675A317119F067E100714FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675A318219F067E100714FAC /* Main.storyboard in Resources */,
+				675A318719F067E100714FAC /* LaunchScreen.xib in Resources */,
+				675A318419F067E100714FAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675A318A19F067E100714FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		675A316F19F067E100714FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675A317F19F067E100714FAC /* ViewController.m in Sources */,
+				675A317C19F067E100714FAC /* AppDelegate.m in Sources */,
+				675A317919F067E100714FAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675A318819F067E100714FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675A319319F067E100714FAC /* playgroundckeditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		675A318E19F067E100714FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675A317219F067E100714FAC /* playgroundckeditor */;
+			targetProxy = 675A318D19F067E100714FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		675A318019F067E100714FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675A318119F067E100714FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		675A318519F067E100714FAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675A318619F067E100714FAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		675A319419F067E100714FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		675A319519F067E100714FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		675A319719F067E100714FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playgroundckeditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		675A319819F067E100714FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playgroundckeditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		675A319A19F067E100714FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = playgroundckeditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playgroundckeditor.app/playgroundckeditor";
+			};
+			name = Debug;
+		};
+		675A319B19F067E100714FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = playgroundckeditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playgroundckeditor.app/playgroundckeditor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		675A316E19F067E100714FAC /* Build configuration list for PBXProject "playgroundckeditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675A319419F067E100714FAC /* Debug */,
+				675A319519F067E100714FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675A319619F067E100714FAC /* Build configuration list for PBXNativeTarget "playgroundckeditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675A319719F067E100714FAC /* Debug */,
+				675A319819F067E100714FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		675A319919F067E100714FAC /* Build configuration list for PBXNativeTarget "playgroundckeditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675A319A19F067E100714FAC /* Debug */,
+				675A319B19F067E100714FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 675A316B19F067E100714FAC /* Project object */;
+}
